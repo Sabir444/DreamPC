@@ -291,6 +291,7 @@ p {
   font-weight: 600;
   font-style: normal;
   line-height: normal;
+	border:none;
 }
 .korz_1{
   border-radius: 30px;
