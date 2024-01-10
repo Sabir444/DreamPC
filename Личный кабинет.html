@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <title>DremPK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: #000">
+    <header>
+        <a href="/">
+          <img src="Logo.svg" />
+        </a>
+      <div class="title">
+        <div class="drem">DremPK</div>
+        <div class="pink">Интернет-магазин комп-техники</div>
+      </div>
+    </header>
+    <menu>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="index.html#model">Модели</a></li>
+        <li><a href="index.html#contacts">Контакты</a></li>
+        <li><a href="О нас.html">О нас</a></li>
+        <li><a id='demoModalStart' class='demoModalStart'>Войти</a></li>
+      </ul>
+    </menu>
+    
+    <p class="perfik">Личный кабинет</p>
+    <div class="lineki"></div>
+    <div class="Lk">
+        <img class="kot" src="Kotik.svg">
+        <p>ФИО:  Иванов С.Д.<br>
+            Email: ivan_ov55@gmail.com<br>
+            Номер: +7 904 655 3474<br>
+            Город: Пермь<br>
+            Адрес: ул. Красные Казармы 64</p>
+        <button>Изменить данные</button>
+    </div>
+    <p class="perfik">Ваши заказы</p>
+    <div class="Lk_zkz">
+    <img  src="Личный заказ.png"></div>
+    <button class="exit">Выход</button>
+
+</body>
+
+
+<footer>
+    <div class="logo_foot">
+      <a href="/">
+        <img src="Logo.svg" />
+      </a>
+      <div>
+        <div class="drem">DremPK</div>
+        <div class="pink">Интернет-магазин комп-техники</div>
+      </div></div>
+
+    <div class="opis_foot">
+      <ul class="left_opis">
+        <li class="zagl"><a class="zagl" href="index.html#model">Модели</a></li>
+        <li><a href="index.html#model">Игровые компьютеры</a></li>
+        <li><a href="index.html#komplect">Комплектующие</a></li>
+        <li><a href="index.html#perif">Периферия</a></li>
+        <li><a href="index.html#model">Каталог</a></li>
+      </ul>
+      <ul class="centre_opis">
+        <li class="zagl"><a href="О нас.html">Компания</a></li>
+        <li><a href="index.html#contacts">Контакты</a></li>
+        <li><a href="О нас.html">О нас</a></li>
+      </ul>
+      <ul class="cont_foot">
+        <li class="zagl">Контакты</li>
+        <li><img class="cart_foot" src="1.svg" />ГБПОУ ПКК «ОНИКС»</li>
+        <li><div class="line_sprv"></div></li>
+        <li><img class="cart_foot" src="2.svg" />8 (952) 642-47-71</li>
+        <li><div class="line_sprv"></div></li>
+        <li><img class="cart_foot" src="3.svg" />Ежедневно с 10:00 до 20:00</li>
+      </ul>
+    </div>
+  </footer>
+        <div class="socseti">
+          <a href="https://web.telegram.org/"><img src="tg.svg" /></a>
+          <a href="https://vk.com/"><img src="vk.svg" /></a> 
+          <a href="https://dzen.ru/?experiment=931375"><img src="dzen.svg" /></a>
+          <a href="https://www.avito.ru/"><img src="avito.svg" /></a>
+      </div>
+  </body>
+
+<!--Окно Регистрации -->
+<div id="demoModalShadow" class="demoModalShadow">
+  <form id="demoModal" class="demoModal">
+    <div class="up_form">
+      <h2 class="regstr">Регистрация</h2>
+        <svg id="demoModalClose" class="demoModal__button close" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+            <path d="M7.45506 1.22718L25 18.7714L42.454 1.31809C42.8396 0.907741 43.304 0.579479 43.8195 0.352985C44.335 0.12649 44.8909 0.00642838 45.4539 0C46.6594 0 47.8156 0.47886 48.668 1.33124C49.5204 2.18361 49.9993 3.33968 49.9993 4.54513C50.0099 5.10237 49.9065 5.6559 49.6954 6.17175C49.4844 6.68759 49.1702 7.15487 48.772 7.54491L31.0907 24.9982L48.772 42.6788C49.5212 43.4116 49.9604 44.404 49.9993 45.4513C49.9993 46.6567 49.5204 47.8128 48.668 48.6652C47.8156 49.5175 46.6594 49.9964 45.4539 49.9964C44.8747 50.0204 44.2967 49.9238 43.7568 49.7125C43.2169 49.5012 42.7268 49.18 42.3177 48.7692L25 31.225L7.50052 48.7238C7.11646 49.1204 6.65765 49.4371 6.15057 49.6555C5.64348 49.874 5.09815 49.9898 4.54606 49.9964C3.34057 49.9964 2.18445 49.5175 1.33203 48.6652C0.47962 47.8128 0.000739554 46.6567 0.000739554 45.4513C-0.00985784 44.894 0.0935342 44.3405 0.304571 43.8247C0.515608 43.3088 0.829838 42.8415 1.22798 42.4515L18.9093 24.9982L1.22798 7.31766C0.478839 6.58479 0.0395548 5.59238 0.000739554 4.54513C0.000739554 3.33968 0.47962 2.18361 1.33203 1.33124C2.18445 0.47886 3.34057 0 4.54606 0C5.63694 0.0136354 6.68236 0.454513 7.45506 1.22718Z" fill="black"/>
+        </svg></div>
+      <div id="demoModalInfo" class="demoModal__info">
+          <input type ="text" id="login" placeholder="Логин" required>
+          <input type ="text" id="email" placeholder="Эл. почта" required>
+          <input type ="text" id="password" placeholder="Пароль" required>
+      </div>
+      <div class="uslovie">
+          <input type="checkbox" checked="checked">
+          <p>Я принимаю условия <u>обработки</u> моих данны<a href="admin.html">х</a></p>
+      </div>
+      <div class="demoModal__actions">
+          <button type="submit" id="demoModalStart_2" class="demoModal__button_active">Зарегистрироваться</button>
+      </div>
+  </form>
+  </div>
+  
+  <!--Окно Входа -->
+<div id="demoModalShadow_2" class="demoModalShadow_2">
+  <form id="demoModal_2" class="demoModal">
+    <div class="up_form">
+      <h2 class="regstr">Авторизация</h2>
+        <svg id="demoModalClose_2" class="demoModal__button close" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+            <path d="M7.45506 1.22718L25 18.7714L42.454 1.31809C42.8396 0.907741 43.304 0.579479 43.8195 0.352985C44.335 0.12649 44.8909 0.00642838 45.4539 0C46.6594 0 47.8156 0.47886 48.668 1.33124C49.5204 2.18361 49.9993 3.33968 49.9993 4.54513C50.0099 5.10237 49.9065 5.6559 49.6954 6.17175C49.4844 6.68759 49.1702 7.15487 48.772 7.54491L31.0907 24.9982L48.772 42.6788C49.5212 43.4116 49.9604 44.404 49.9993 45.4513C49.9993 46.6567 49.5204 47.8128 48.668 48.6652C47.8156 49.5175 46.6594 49.9964 45.4539 49.9964C44.8747 50.0204 44.2967 49.9238 43.7568 49.7125C43.2169 49.5012 42.7268 49.18 42.3177 48.7692L25 31.225L7.50052 48.7238C7.11646 49.1204 6.65765 49.4371 6.15057 49.6555C5.64348 49.874 5.09815 49.9898 4.54606 49.9964C3.34057 49.9964 2.18445 49.5175 1.33203 48.6652C0.47962 47.8128 0.000739554 46.6567 0.000739554 45.4513C-0.00985784 44.894 0.0935342 44.3405 0.304571 43.8247C0.515608 43.3088 0.829838 42.8415 1.22798 42.4515L18.9093 24.9982L1.22798 7.31766C0.478839 6.58479 0.0395548 5.59238 0.000739554 4.54513C0.000739554 3.33968 0.47962 2.18361 1.33203 1.33124C2.18445 0.47886 3.34057 0 4.54606 0C5.63694 0.0136354 6.68236 0.454513 7.45506 1.22718Z" fill="black"/>
+        </svg></div>
+      <div id="demoModalInfo" class="demoModal__info">
+          <input type ="text" id="login" placeholder="Логин" required>
+          <input type ="text" id="password" placeholder="Пароль" required>
+      </div>
+      <div class="demoModal__actions">
+          <button type="submit" id="demoModalVhod" class="demoModal__button_active">Войти</button>
+      </div>
+  </form>
+  </div>
+
+  <script>
+      // Открытие Регистрационного окна
+  document.querySelector('#demoModalStart').addEventListener('click', function () {
+      document.querySelector('#demoModalShadow').style.display = 'flex';
+  });
+  // Закрытие модального окна
+  document.querySelector('#demoModalClose').addEventListener('click', function () {
+      document.querySelector('#demoModalShadow').style.display = 'none';
+  });
+        // Открытие окна входа
+        document.querySelector('#demoModalStart_2').addEventListener('click', function () {
+          document.querySelector('#demoModalShadow').style.display = 'none';
+      document.querySelector('#demoModalShadow_2').style.display = 'flex';
+  });
+    // Закрытие окна входа
+    document.querySelector('#demoModalClose_2').addEventListener('click', function () {
+      document.querySelector('#demoModalShadow_2').style.display = 'none';
+  });
+  </script>
+</html>
