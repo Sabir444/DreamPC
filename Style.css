@@ -17,6 +17,58 @@ header {
   justify-content: center;
 }
 
+/* Медиа запрос для сайта */
+@media (max-width: 700px) {
+    .drem{
+      font-size: 80px;
+    }
+    .pink{
+      font-size: 40px;
+      margin-bottom: 6%;
+    }
+    .lgg{
+      height: 150px;
+      gap: 2%;
+    }
+    body{
+      display:grid;
+      max-width: 700px;
+    }
+    menu{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    html{
+      display:grid;
+    }
+    .logo_foot{
+      display: none;
+    }
+    .lineki{
+      width: 350px;
+    }
+    .Lk p{
+      font-size: 50px;
+      text-align: center;
+    }
+    .Lk button{
+      margin-left: 25%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .kot{
+      height: 400px;
+      float:none;
+      margin-left: 190px;
+    }
+    .opis_foot{
+      font-size: 38px;
+    }
+    .socseti{
+      margin-left: 45%;
+    }
+}
+
 .plusik{
   text-align: center;
   margin-top: 5%;
