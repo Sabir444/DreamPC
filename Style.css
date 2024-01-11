@@ -978,7 +978,7 @@ input[type="text"]{
 }
 
 /* Медиа запрос для сайта */
-@media (max-width: 700px) {
+@media (max-height: 701px) {
     .drem{
       font-size: 80px;
     }
