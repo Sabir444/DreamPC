@@ -647,6 +647,7 @@ margin-bottom: 2%;
     margin-left: auto;
 }
 .kot{
+max-width:700px
     height: 40%; /* ысота картинки, от неё будет зависеть и размер общего блока */
     object-fit: cover; /* обрезаем края картинки, если они не вместятся в блок */
     object-position: 0 70; /* тоже обрезка краев */
