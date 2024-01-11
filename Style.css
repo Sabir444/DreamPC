@@ -1023,6 +1023,9 @@ input[type="text"]{
     .opis_foot{
       font-size: 38px;
     }
+		.exit{
+		margin-left: 40%;
+	}
     .socseti{
       margin-left: 45%;
     }
